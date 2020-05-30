@@ -1,4 +1,3 @@
-
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
@@ -12,7 +11,8 @@ body {
 	color: white
 }
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	text-decoration: none
 }
 .container {
@@ -53,10 +53,13 @@ p {
 	display: inline-block;
 	padding: 13px 80px;
 	border-radius: 30px;
+	background: -o-linear-gradient(45deg, hsl(198, 60%, 50%), hsl(176, 68%, 50%));
 	background: linear-gradient(45deg, hsl(198, 60%, 50%), hsl(176, 68%, 50%));
 	color: white;
 	font-size: 14px;
 	font-weight: bold;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
 	transition: all .2s
 }
 .btn:hover {
@@ -71,14 +74,20 @@ header {
 	padding: 50px 0
 }
 .navbar .row {
-	justify-content: space-between;
-	align-items: center
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center
 }
 .nav-link {
 	color: #e5e5e5;
 	margin-left: 45px;
 	padding-bottom: 3px;
 	position: relative;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s;
 	transition: all .2s
 }
 .nav-link span {
@@ -88,6 +97,8 @@ header {
 	width: 0%;
 	left: 50%;
 	bottom: 0;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
 	transition: all .2s ease
 }
 .nav-link:hover span {
@@ -157,7 +168,8 @@ header {
 }
 .infor .row {
 	margin: 0 -15px;
-	justify-content: space-around
+	-ms-flex-pack: distribute;
+	    justify-content: space-around
 }
 .infor-item {
 	padding: 30px 15px;
@@ -189,9 +201,13 @@ header {
 	padding: 70px 0
 }
 .como-funciona .row {
-	justify-content: space-around;
-	flex-wrap: nowrap;
-	align-items: center
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center
 }
 .como-funciona .col {
 	width: 50%
@@ -212,7 +228,8 @@ header {
 }
 @media (max-width: 700px) {
 	.como-funciona .row {
-		flex-wrap: wrap
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap
 	}
 	.como-funciona .col {
 		width: 100%
@@ -246,8 +263,12 @@ header {
 	border-radius: 6px
 }
 .d-pessoa {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding-top: 10px;
 	padding-bottom: 5px
 }
@@ -287,7 +308,8 @@ header {
 	padding-top: 30px;
 	border-radius: 10px;
 	text-align: center;
-	box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
+	        box-shadow: 5px 5px 8px rgba(0, 0, 0, .3);
 	z-index: 2;
 	position: relative
 }
@@ -348,6 +370,8 @@ footer .col-3 {
 	padding: 15px 15px
 }
 .media {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 15px
 }
