@@ -1,4 +1,4 @@
-# Página de destino do Fylo com tema escuro e
+# Página de destino do Fylo com tema escuro
 Este é meu envio ao desafio do [Frotend Mentor](https://www.frontendmentor.io/profile/EdivandroLima).
 
 [Clique aqui](https://fem-landing-page-do-tema-escuro-fylo.now.sh/) para ver como ficou.
@@ -9,4 +9,4 @@ Este é meu envio ao desafio do [Frotend Mentor](https://www.frontendmentor.io/p
 - Google Fonts
 - Fontawesome
 - Normalize CSS
-- HTML5Shiv 
+- HTML5Shiv
