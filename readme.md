@@ -9,4 +9,4 @@ Este é meu envio ao desafio do [Frotend Mentor](https://www.frontendmentor.io/p
 - Google Fonts
 - Fontawesome
 - Normalize CSS
-- HTML5Shiv
+- HTML5Shiv 
